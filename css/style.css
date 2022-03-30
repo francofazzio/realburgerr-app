@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto+Slab&display=swap');
+nav img{
+    width: 150px;
+
+}
+header img{
+    width: 300px;
+}
+section{
+    background-color: rgb(255, 81, 0); 
+}
+.carrito-header{
+    border: 1px solid #eee8e4c7;
+    width: 100px;
+  }

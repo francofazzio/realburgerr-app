@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto+Slab&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.section {
+  width: 49%;
+  height: 8vh;
+}
+
+.icon-lang {
+  width: 150px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/icono-es.jpg);
+}
+
+.section__h3 {
+  background-color: #ff6600;
+}
+
+section {
+  text-align: center;
+  font-size: 2em;
+}
+.carrito-header{
+  border: 1px solid #eee8e4c7;
+  width: 100px;
+}
+/*# sourceMappingURL=main.css.map */
