@@ -15,11 +15,7 @@ for (const producto of carrito){
     `
     productosDiv.append(div)
 }
-<div>
-<img
-src={'./carrito.jpg'}
-className="carrito-header"/>
-</div>
+
 
 const div = document.createElement('div')
 
@@ -35,7 +31,14 @@ div.innerHTML = `
 productosDiv.append(div)
 
 
-
+const eliminarCompra = (productoId) => {
+    const compra = carrito.find((comp)=> comp.id === productoId)
+    const ubicacion = carrito.indexOf(compra)
+    carrito.splice(ubicacion,1)   
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+    window. location. reload()
+   }
+   
 
 
 
